@@ -72,15 +72,15 @@ public class GUI  {
              if(check==false)
              {
                 float percentage=totalMarks/numberSubject;
-              if(percentage>=80 &&percentage<100)
+              if(percentage>=80 &&percentage<=100)
               {
                   JOptionPane.showMessageDialog(panel, "Your Percentage is " + percentage +"\n Passed with class A");
               }
-               if(percentage>=60 &&percentage<80)
+               if(percentage>=60 &&percentage<=80)
               {
                   JOptionPane.showMessageDialog(panel, "Your Percentage is " + percentage +"\n Passed with class B");
               }
-                if(percentage>25 &&percentage<60)
+                if(percentage>0 &&percentage<=60)
               {
                   JOptionPane.showMessageDialog(panel, "Your Percentage is " + percentage +"\n Passed with class C");
               }
